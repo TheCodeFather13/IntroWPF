@@ -21,12 +21,12 @@
             <sys:String>Sunday</sys:String>
         </col:ArrayList>
     </Window.Resources>
-    <DockPanel LastChildFill="True">
-            <Button DockPanel.Dock="Top" Background="Blue" Content="Header Menu" MinWidth="50"/>
-            <Button DockPanel.Dock="Bottom" Background="BlanchedAlmond" Content="Footer"/>
-            <Button DockPanel.Dock="Left" Background="Aquamarine" Content="Sidebar0"/>
-            <Button DockPanel.Dock="Left" Background="Aquamarine" Content="Sidebar1"/>
-            <Button DockPanel.Dock="Right" Background="DarkGreen" Content="Sidebar Right"/>
-            <Button Background="LightGreen" Content="Center/Container" MinWidth="50"/>
-    </DockPanel>
+    <WrapPanel Orientation="Vertical">
+            <Button Background="Blue" Content="Header Menu" MinWidth="50"/>
+            <Button Background="BlanchedAlmond" Content="Footer" Height="20"/>
+            <Button Background="Aquamarine" Content="Sidebar0" Height="180"/>
+            <Button Background="Aquamarine" Content="Sidebar1"/>
+            <Button Background="DarkGreen" Content="Sidebar Right" Width="120"/>
+            <Button Content="Center/Container" MinWidth="50"/>
+    </WrapPanel>
 </Window>
