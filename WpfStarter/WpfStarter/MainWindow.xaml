@@ -9,10 +9,8 @@
     <Grid x:Name="myGrid">
         <!--<TextBox x:Name="textBox1" Width="120" Height="35" VerticalAlignment="Top" Margin="20"/>
         <Button x:Name="myButton" Width="90" Height="35" Content="My Btn" Click="Button_Click"/>-->
-        <Button x:Name="myButton" Width="90" Height="35" Content="My Btn" Click="Button_Click" >
-            <Button.Background>
-                <SolidColorBrush Opacity="0.8" Color="Red" />
-            </Button.Background>
+        <Button x:Name="myButton" Width="90" Height="35" Content="My Btn" Click="Button_Click" Background="Red">
+      
         </Button>
         
     </Grid>
