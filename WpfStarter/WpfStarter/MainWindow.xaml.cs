@@ -27,7 +27,17 @@ namespace WpfStarter
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Welcome to Wpf lesson One !!!");
+            //MessageBox.Show("Welcome to Wpf lesson One !!!");
+            string tbContent = textBox1.Text;
+            if (tbContent != "")
+            {
+                MessageBox.Show(tbContent);
+            }
+            else
+            {
+                MessageBox.Show("Input is empty");
+            }
+            
         }
     }
 }
