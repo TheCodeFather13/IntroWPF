@@ -23,13 +23,13 @@ namespace WpfStarter
         public MainWindow()
         {
             InitializeComponent();
-            Button button = new Button();
-            button.Width = 100;
-            button.Height = 30;
-            button.Content = "Custom Btn";
-            button.Background = new SolidColorBrush(Colors.Red);
+            //Button button = new Button();
+            //button.Width = 100;
+            //button.Height = 30;
+            //button.Content = "Custom Btn";
+            //button.Background = new SolidColorBrush(Colors.Red);
 
-            myGrid.Children.Add(button);
+            //myGrid.Children.Add(button);
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
