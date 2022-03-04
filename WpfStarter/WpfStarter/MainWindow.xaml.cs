@@ -27,6 +27,8 @@ namespace WpfStarter
             button.Width = 100;
             button.Height = 30;
             button.Content = "Custom Btn";
+            button.Background = new SolidColorBrush(Colors.Red);
+
             myGrid.Children.Add(button);
         }
 
