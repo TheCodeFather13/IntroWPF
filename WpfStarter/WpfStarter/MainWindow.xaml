@@ -9,7 +9,7 @@
         xmlns:col="clr-namespace:System.Collections;assembly=mscorlib" 
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
         
-        Title="MainWindowStart" Height="280" Width="510">
+        Title="MainWindowStart" Height="280" Width="500">
     <Window.Resources>
         <col:ArrayList x:Key="days">
             <sys:String>Monday</sys:String>
@@ -21,11 +21,12 @@
             <sys:String>Sunday</sys:String>
         </col:ArrayList>
     </Window.Resources>
-    <Grid>
-        <StackPanel Orientation="Horizontal" FlowDirection="RightToLeft">
-            <Button Background="Blue" Content="1" MinWidth="50"/>
-            <Button Background="White" Content="2" MinWidth="50"/>
-            <Button Background="Red" Content="3" MinWidth="50"/>
-        </StackPanel>
-    </Grid>
+    <DockPanel LastChildFill="True">
+            <Button DockPanel.Dock="Top" Background="Blue" Content="Header Menu" MinWidth="50"/>
+            <Button DockPanel.Dock="Bottom" Background="BlanchedAlmond" Content="Footer"/>
+            <Button DockPanel.Dock="Left" Background="Aquamarine" Content="Sidebar0"/>
+            <Button DockPanel.Dock="Left" Background="Aquamarine" Content="Sidebar1"/>
+            <Button DockPanel.Dock="Right" Background="DarkGreen" Content="Sidebar Right"/>
+            <Button Background="LightGreen" Content="Center/Container" MinWidth="50"/>
+    </DockPanel>
 </Window>
