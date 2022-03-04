@@ -22,27 +22,10 @@
         </col:ArrayList>
     </Window.Resources>
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
-        <!--<Button Grid.Column="1" Content="Left Btn" />-->
-        <GridSplitter Grid.Column="1" Grid.Row="0" Width="3" HorizontalAlignment="Center" VerticalAlignment="Stretch" ShowsPreview="False"/>
-        <GridSplitter Grid.Column="1" Grid.Row="1" Width="3" HorizontalAlignment="Stretch" VerticalAlignment="Center" ShowsPreview="False"/>
-        <Canvas Grid.Column="0" Grid.Row="0">
-            <TextBlock>Left Panel</TextBlock>
-        </Canvas>
-        <Canvas Grid.Column="2" Grid.Row="0" Background="LightGreen">
-            <TextBlock>Right Panel</TextBlock>
-        </Canvas>
-        <Canvas Grid.ColumnSpan="3" Grid.Row="2" Background="#dfffff">
-            <TextBlock Canvas.Left="60">Bottom Panel</TextBlock>
-        </Canvas>
+        <StackPanel>
+            <Button Background="Blue" Content="1"/>
+            <Button Background="White" Content="2"/>
+            <Button Background="Red" Content="2"/>
+        </StackPanel>
     </Grid>
 </Window>
