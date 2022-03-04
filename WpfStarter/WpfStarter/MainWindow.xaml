@@ -9,9 +9,11 @@
     <Grid x:Name="myGrid">
         <!--<TextBox x:Name="textBox1" Width="120" Height="35" VerticalAlignment="Top" Margin="20"/>
         <Button x:Name="myButton" Width="90" Height="35" Content="My Btn" Click="Button_Click"/>-->
-        <Button x:Name="myButton" Width="90" Height="35" Content="My Btn" Click="Button_Click" Background="Red">
-      
+        <Button x:Name="myButton" Height="35" Click="Button_Click" Background="Blue" Opacity="1" Margin="206,107,37,107">
+            <Button.Content>
+                <local:Notebook Name="Acer TravelMate" Price="22000" />
+            </Button.Content>
         </Button>
-        
+
     </Grid>
 </Window>
