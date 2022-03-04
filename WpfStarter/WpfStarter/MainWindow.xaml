@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindowStart" Height="280" Width="510">
     <Grid x:Name="myGrid">
-        <TextBox x:Name="textBox1" Width="120" Height="35" VerticalAlignment="Top" Margin="20"/>
-        <Button x:Name="myButton" Width="90" Height="35" Content="My Btn" Click="Button_Click"/>
+        <!--<TextBox x:Name="textBox1" Width="120" Height="35" VerticalAlignment="Top" Margin="20"/>
+        <Button x:Name="myButton" Width="90" Height="35" Content="My Btn" Click="Button_Click"/>-->
         
     </Grid>
 </Window>

@@ -23,12 +23,17 @@ namespace WpfStarter
         public MainWindow()
         {
             InitializeComponent();
+            Button button = new Button();
+            button.Width = 100;
+            button.Height = 30;
+            button.Content = "Custom Btn";
+            myGrid.Children.Add(button);
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             //MessageBox.Show("Welcome to Wpf lesson One !!!");
-            string tbContent = textBox1.Text;
+            /*string tbContent = textBox1.Text;
             if (tbContent != "")
             {
                 MessageBox.Show(tbContent);
@@ -36,7 +41,7 @@ namespace WpfStarter
             else
             {
                 MessageBox.Show("Input is empty");
-            }
+            }*/
             
         }
     }
