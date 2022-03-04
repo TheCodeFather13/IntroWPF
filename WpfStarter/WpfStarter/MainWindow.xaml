@@ -21,12 +21,12 @@
             <sys:String>Sunday</sys:String>
         </col:ArrayList>
     </Window.Resources>
-    <WrapPanel Orientation="Vertical">
-            <Button Background="Blue" Content="Header Menu" MinWidth="50"/>
-            <Button Background="BlanchedAlmond" Content="Footer" Height="20"/>
-            <Button Background="Aquamarine" Content="Sidebar0" Height="180"/>
+    <WrapPanel Orientation="Vertical" ItemHeight="40" ItemWidth="180">
+            <Button Background="Blue" Content="Header Menu"/>
+            <Button Background="BlanchedAlmond" Content="Footer"/>
+            <Button Background="Aquamarine" Content="Sidebar0"/>
             <Button Background="Aquamarine" Content="Sidebar1"/>
-            <Button Background="DarkGreen" Content="Sidebar Right" Width="120"/>
-            <Button Content="Center/Container" MinWidth="50"/>
+            <Button Background="DarkGreen" Content="Sidebar Right"/>
+            <Button Content="Center/Container"/>
     </WrapPanel>
 </Window>
