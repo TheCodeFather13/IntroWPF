@@ -21,7 +21,19 @@
             <sys:String>Sunday</sys:String>
         </col:ArrayList>
     </Window.Resources>
-    <Grid x:Name="myGrid">
-        
+    <Grid x:Name="myGrid" ShowGridLines="True">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Button Grid.Column="0" Grid.Row="0" Content="Cell [0][0]" />
+        <Button Grid.Column="0" Grid.Row="1" Content="Cell [0][1]" />
+        <Button Grid.Column="2" Grid.Row="2" Content="Cell [2][2]" />
     </Grid>
 </Window>
