@@ -22,10 +22,10 @@
         </col:ArrayList>
     </Window.Resources>
     <Grid>
-        <StackPanel>
-            <Button Background="Blue" Content="1"/>
-            <Button Background="White" Content="2"/>
-            <Button Background="Red" Content="2"/>
+        <StackPanel Orientation="Horizontal" FlowDirection="RightToLeft">
+            <Button Background="Blue" Content="1" MinWidth="50"/>
+            <Button Background="White" Content="2" MinWidth="50"/>
+            <Button Background="Red" Content="3" MinWidth="50"/>
         </StackPanel>
     </Grid>
 </Window>
