@@ -10,23 +10,14 @@
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
         
         Title="MainWindowStart" Height="280" Width="500">
-    <Window.Resources>
-        <col:ArrayList x:Key="days">
-            <sys:String>Monday</sys:String>
-            <sys:String>Tuesday</sys:String>
-            <sys:String>Wednesday</sys:String>
-            <sys:String>Thusday</sys:String>
-            <sys:String>Friday</sys:String>
-            <sys:String>Saturday</sys:String>
-            <sys:String>Sunday</sys:String>
-        </col:ArrayList>
-    </Window.Resources>
-    <WrapPanel Orientation="Vertical" ItemHeight="40" ItemWidth="180">
-            <Button Background="Blue" Content="Header Menu"/>
-            <Button Background="BlanchedAlmond" Content="Footer"/>
-            <Button Background="Aquamarine" Content="Sidebar0"/>
-            <Button Background="Aquamarine" Content="Sidebar1"/>
-            <Button Background="DarkGreen" Content="Sidebar Right"/>
-            <Button Content="Center/Container"/>
-    </WrapPanel>
+    <Grid HorizontalAlignment="Left" Height="231" Margin="10,10,0,0" VerticalAlignment="Top" Width="480">
+        <Label x:Name="Username" Content="Username" HorizontalAlignment="Left" Margin="92,65,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="92,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.508"/>
+        <Label x:Name="Username_Copy" Content="Password" HorizontalAlignment="Left" Margin="92,130,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.652,2.603"/>
+
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="92,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.508"/>
+        <Button x:Name="BtnLogin" Margin="92,195,268,0" Background="BlueViolet">MyBtn</Button>
+        <Label x:Name="Username_Copy1" Content="Login Form" HorizontalAlignment="Left" Margin="115,18,0,0" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+
 </Window>
