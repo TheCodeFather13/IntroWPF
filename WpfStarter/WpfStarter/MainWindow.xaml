@@ -9,7 +9,7 @@
         xmlns:col="clr-namespace:System.Collections;assembly=mscorlib" 
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
         
-        Title="MainWindowStart" Height="280" Width="500">
+        Title="MainWindowStart" Height="350.933" Width="667.253">
     <Grid HorizontalAlignment="Left" Height="231" Margin="10,10,0,0" VerticalAlignment="Top" Width="480">
         <Label x:Name="Username" Content="Username" HorizontalAlignment="Left" Margin="92,65,0,0" VerticalAlignment="Top"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="92,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.508"/>
@@ -18,6 +18,7 @@
         <TextBox HorizontalAlignment="Left" Height="23" Margin="92,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.508"/>
         <Button x:Name="BtnLogin" Margin="92,195,268,0" Background="BlueViolet">MyBtn</Button>
         <Label x:Name="Username_Copy1" Content="Login Form" HorizontalAlignment="Left" Margin="115,18,0,0" VerticalAlignment="Top" Width="120"/>
+        <Image HorizontalAlignment="Left" Height="213" VerticalAlignment="Top" Width="358" Margin="227,18,-105,0" Source="im-470163 — копия.jfif"/>
     </Grid>
 
 </Window>
