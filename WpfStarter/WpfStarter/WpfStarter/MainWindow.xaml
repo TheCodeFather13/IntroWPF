@@ -6,11 +6,18 @@
         xmlns:local="clr-namespace:WpfStarter"
         mc:Ignorable="d"
         Title="MainWindow" Height="280" Width="750">
-    <Grid x:Name="myGrid">
+    <Grid x:Name="myGrid" Opacity="0.5" Cursor="Hand">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="0"/>
+                <GradientStop Color="White" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
         <!--Button x:Name="firstButton" Margin="302,108,340,101" Content="Custom Button"/>
         <Button Content="&lt;&quot;Hello&quot;&gt;" FontStyle="Italic" FontSize="40"/-->
-        <Button xml:space="preserve">Hello        World</Button>
-
+        <!--Button xml:space="preserve">Hello        World</Button-->
+        <TextBox x:Name="textBox1" Width="120" Height="35" VerticalAlignment="Top" Margin="20"/>
+        <Button x:Name="myButton" Width="90" Height="50" Content="My Btn" Click="Button_Click" Margin="326,84,326,115"/>
 
 
     </Grid>
