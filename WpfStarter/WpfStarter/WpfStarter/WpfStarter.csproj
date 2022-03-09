@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D53580DB-138A-4E07-A590-35126FDA5DE8}</ProjectGuid>
+    <ProjectGuid>{D8E2602A-D470-458B-9E02-C2DCB3183709}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>WpfStarter</RootNamespace>
     <AssemblyName>WpfStarter</AssemblyName>
@@ -69,7 +69,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Notebook.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -94,9 +93,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="im-470163 — копия.jfif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
