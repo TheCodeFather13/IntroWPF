@@ -5,24 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfStarter"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="109*"/>
-            <ColumnDefinition Width="287*"/>
-        </Grid.ColumnDefinitions>
-        <!--Button Content="My Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="153" Margin="49,102,0,0" Height="53" RenderTransformOrigin="0.5,0.5" Click="Button_Click">
-            <Button.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="-7.241"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Button.RenderTransform>
-        </Button-->
+        Title="MainWindow" Height="280" Width="750">
+    <Grid x:Name="myGrid">
+        <!--Button x:Name="firstButton" Margin="302,108,340,101" Content="Custom Button"/>
+        <Button Content="&lt;&quot;Hello&quot;&gt;" FontStyle="Italic" FontSize="40"/-->
+        <Button xml:space="preserve">Hello        World</Button>
 
-        <Button Content="Click me!" FontSize="50" Width="200" Height="100" Click="Button_Click"></Button>
+
 
     </Grid>
 </Window>
